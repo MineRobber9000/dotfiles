@@ -6,4 +6,4 @@ bash:
 git:
 	stow git
 pico8:
-	stow -t '$$HOME/.lexaloffle' pico8
+	stow -t '${HOME}/.lexaloffle/pico-8' pico8
