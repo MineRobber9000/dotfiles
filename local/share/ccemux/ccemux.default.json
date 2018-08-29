@@ -1,0 +1,47 @@
+{
+  "termScale": 2.0,
+  "termHeight": 19,
+  "termWidth": 51,
+  "renderer": "AWT",
+  "maxComputerCapacity": 2097152,
+  "maximumFilesOpen": 128,
+  "httpEnable": true,
+  "httpWhitelist": [
+    "*"
+  ],
+  "httpBlacklist": [
+    "127.0.0.0/8",
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "fd00::/8"
+  ],
+  "disableLua51Features": false,
+  "defaultComputerSettings": "",
+  "debugEnable": false,
+  "computerThreads": 1,
+  "plugins": {
+    "net.clgd.ccemux.plugins.builtin.AWTPlugin": {
+      "enabled": true,
+      "nativePaste": false
+    },
+    "net.clgd.ccemux.plugins.builtin.CCEmuXAPI": {
+      "enabled": true
+    },
+    "net.clgd.ccemux.plugins.builtin.HDFontPlugin": {
+      "enabled": true
+    },
+    "net.clgd.ccemux.plugins.builtin.JFXPlugin": {
+      "enabled": true,
+      "forceUtilityDecoration": false,
+      "doubleFontScale": false
+    },
+    "net.clgd.ccemux.plugins.builtin.TRoRPlugin": {
+      "enabled": true
+    },
+    "net.clgd.ccemux.plugins.builtin.peripherals.DefaultPeripheralsPlugin": {
+      "enabled": true,
+      "disk_capacity": 125000
+    }
+  }
+}
