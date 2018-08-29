@@ -14,3 +14,8 @@ nano:
 local:
 	mkdir -p ~/.local
 	stow -t '${HOME}/.local' local
+sdkman:
+	stow sdkman
+	mkdir -p ~/.sdkman/archives
+	mkdir -p ~/.sdkman/candidates
+	mkdir -p ~/.sdkman/tmp

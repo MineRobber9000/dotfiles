@@ -1,0 +1,4 @@
+sdkman/.sdkman/archives/*
+sdkman/.sdkman/tmp/*
+sdkman/.sdkman/candidates/*
+local/share/clipit/*
