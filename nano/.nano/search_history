@@ -13,6 +13,12 @@ Normal
 can_talk_to
     
 ion_
+--!define
+--!ifdef
+lines
+"footer.js
+textarea
+input
 
 :-
         
@@ -23,4 +29,7 @@ child
 arbitrary code execution
 Grass
 can_trigger
+quotes
+"/footer.js
+textarea
 
