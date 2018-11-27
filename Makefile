@@ -1,4 +1,4 @@
-linux-headless: bash git nano local
+linux-headless: bash git
 linux-computer: linux-headless pico8
 
 .PHONY: bash git pico8 nano local
