@@ -1,9 +1,0 @@
-{
-  "_comment": "This is the config file for CCEmuX. Refer to ccemux.default.json for the various options.",
-  "plugins": {
-    "net.clgd.ccemux.plugins.builtin.HDFontPlugin": {
-      "enabled": false
-    }
-  },
-  "httpBlacklist": []
-}

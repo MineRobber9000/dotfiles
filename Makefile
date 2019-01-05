@@ -11,9 +11,6 @@ pico8:
 	stow -t '${HOME}/.lexaloffle/pico-8' pico8
 nano:
 	stow nano
-local:
-	mkdir -p ~/.local
-	stow -t '${HOME}/.local' local
 sdkman:
 	stow sdkman
 	mkdir -p ~/.sdkman/archives
