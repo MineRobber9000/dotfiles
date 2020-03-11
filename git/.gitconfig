@@ -3,3 +3,5 @@
 	email = khuxkm@ttm.sh
 [push]
 	default = matching
+[core]
+	editor = nano
