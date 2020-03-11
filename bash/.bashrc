@@ -116,6 +116,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export EDITOR="nano"
+export AOC_SESSION="53616c7465645f5fb4f2a3e23d3354955f32e3fd1b532118e44720c34f99c468bcca5bc85e9ad93b269af8a86adf37d0"
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/khuxkm/.sdkman"
 [[ -s "/home/khuxkm/.sdkman/bin/sdkman-init.sh" ]] && source "/home/khuxkm/.sdkman/bin/sdkman-init.sh"
+export LUA_PATH='/home/khuxkm/.luarocks/share/lua/5.1/?.lua;/home/khuxkm/.luarocks/share/lua/5.1/?/init.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua;./?.lua;/usr/local/lib/lua/5.1/?.lua;/usr/local/lib/lua/5.1/?/init.lua;/usr/share/lua/5.1/?.lua;/usr/share/lua/5.1/?/init.lua'
+export LUA_CPATH='/home/khuxkm/.luarocks/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/?.so;./?.so;/usr/lib/x86_64-linux-gnu/lua/5.1/?.so;/usr/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so'
+export WWW_HOME='https://duckduckgo.com/lite/'
